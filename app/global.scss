@@ -1,0 +1,259 @@
+// /**
+
+// =========================================================
+// ** Tailwind imports styling
+// =========================================================
+
+// **/
+
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
+
+// $title-font : "Inter",
+// sans-serif;
+// $body-font : "Inter",
+// sans-serif;
+
+// /**
+
+// =========================================================
+// ** Custom Badge styling
+// =========================================================
+
+// **/
+
+// @layer components {
+//     .badge-group {
+//         @apply inline-flex text-sm;
+//     }
+
+//     .badge-group--container {
+//         @apply mb-8 w-auto items-center rounded-full border border-neutral-300 bg-white px-1 py-[2px] font-medium text-badgeText inline-flex;
+//     }
+
+//     .badge-group--link {
+//         @apply transition-colors duration-300;
+//     }
+
+//     .badge-group--context {
+//         @apply rounded-full bg-[#efefef] px-2 py-[2px];
+//     }
+
+//     .badge-group--message {
+//         @apply px-2;
+//     }
+
+//     .badge-group--icon {
+//         @apply py-2 pr-2;
+//     }
+// }
+
+// /**
+
+// =========================================================
+// ** Custom Button styling
+// =========================================================
+
+// **/
+
+// @layer components {
+//     .btn {
+//         @apply inline-flex w-full cursor-pointer items-center justify-center gap-3 rounded-lg px-8 py-2 font-semibold text-black transition-colors duration-300 hover:bg-secondary-500 w-auto;
+//     }
+
+//     .btn--primary {
+//         @apply bg-primary-500;
+//     }
+
+//     .btn--secondary {
+//         @apply bg-secondary-500;
+//     }
+
+//     .btn--outline {
+//         @apply border border-[1px] border-black bg-white text-black hover:text-white;
+//     }
+
+//     .btn--black {
+//         @apply bg-black-500;
+//     }
+
+//     /**
+//   =========================================================
+//   ** Button Groups **
+//   =========================================================
+//   **/
+
+//     .btn-group {}
+
+//     .btn-group--container {
+//         @apply flex flex-wrap gap-4;
+//     }
+// }
+
+// /**
+
+// =========================================================
+// ** Custom Card styling
+// =========================================================
+
+// **/
+
+// @layer components {
+//     .card {
+//         @apply text-black/60;
+//     }
+
+//     .card--container {
+//         @apply flex h-full flex-wrap;
+//     }
+
+//     .card-group--container {
+//         @apply grid w-full grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3;
+//     }
+
+//     .card--header {
+//         @apply mt-8 mb-2 flex w-full items-center justify-between;
+
+//         h2 {
+//             @apply mb-0 text-xl;
+//         }
+//     }
+// }
+
+// @layer components {
+//     #footer {
+        // .footer {
+        //     &--background {
+        //         @apply absolute left-0 top-0 right-0 bottom-0 z-[5] h-full bg-center bg-cover bg-no-repeat opacity-50;
+        //     }
+        // }
+    // }
+// }
+
+// /**
+
+// =========================================================
+// ** Custom Header styling
+// =========================================================
+
+// **/
+
+// @layer components {
+//     .header {}
+
+//     .header--container {
+//         @apply relative flex items-center justify-between py-3 lg:justify-start;
+
+//         &:after {
+//             content: "";
+//             margin-left: var(--page-padding-left);
+//             margin-right: var(--page-padding-right);
+//             position: absolute;
+//             bottom: 0px;
+//             left: 0px;
+//             right: 0px;
+//             height: 1px;
+//             background: rgba(255, 255, 255, 0.08);
+//         }
+//     }
+
+//     .header-logo--container {
+//         @apply mr-2 lg:mr-8 flex items-center;
+//     }
+// }
+
+// /**
+
+// =========================================================
+// ** Custom Nav styling 
+// =========================================================
+
+// **/
+
+// @layer components {
+//     .header-nav {
+//         @apply text-black/60;
+//     }
+
+//     .header-nav--container {}
+
+//     .mobile-menu {
+//         @apply lg:ml-3 inline-flex items-center p-2 text-white lg:hidden md:mr-auto;
+//     }
+
+//     .header-nav {
+//         .header-nav--menu-container {
+//             @apply absolute left-0 w-full lg:relative lg:block lg:w-auto;
+//         }
+//     }
+
+//     .header-nav--menu {
+//         @apply my-3 flex flex-col gap-6 border border-gray-100 bg-gray-50 p-4 font-medium lg:my-0 lg:mt-0 lg:flex-row lg:border-0 lg:bg-transparent lg:p-0 lg:font-medium;
+//     }
+
+//     .header-nav--menu-item {}
+
+//     .menu-item--link {
+//         @apply block rounded py-2 pl-3 pr-4 transition-colors duration-300 md:bg-transparent md:p-0 md:p-0 lg:text-black md:hover:underline;
+
+//         &.active {
+//             @apply bg-primary-700 text-white text-black lg:bg-white;
+//         }
+//     }
+// }
+
+// @layer components {
+//     .page-banner {
+//         &--title {}
+
+//         &--container {}
+
+//         &--inner-container {}
+
+//         &---image {}
+
+//         &--background {
+//             @apply absolute left-0 top-0 right-0 bottom-0 -z-[1] h-[50vh] md:h-[60vh] lg:h-screen min-h-[720px] bg-top bg-cover bg-no-repeat bg-hero-pattern;
+//             // @apply absolute left-0 top-0 right-0 bottom-0 -z-[1] h-screen bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-red-200 via-indigo-700 to-green-400;
+//         }
+//     }
+// }
+
+/*
+
+=========================================================
+* Avenue CSS Kit v0.1
+=========================================================
+
+* Demo Page: 'https://nutritrack.chrstnl.com/'
+* Copyright 2023 @chrstnl 
+* Coded by @chrstnl
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/
+
+// Core CSS Reset/MISCS
+@import "./styles/core/misc";
+
+// Core Declarations
+@import "./styles/core/variables";
+
+// Core Layouts and Style Definitions
+@import "./styles/core/general";
+@import "./styles/core/typography";
+@import "./styles/core/utilities";
+
+// ./styles/core Components
+@import "./styles/core/components/button";
+@import "./styles/core/components/badge";
+@import "./styles/core/components/nav";
+@import "./styles/core/components/header";
+@import "./styles/core/components/card";
+@import "./styles/core/components/page-banner";
+@import "./styles/core/components/footer";
+
+// Core Plugins
+// @import "plugins/plugin-tailwind";
